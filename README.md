@@ -1,5 +1,7 @@
 # I Know Kung-Fu
 
+![kungfu at work: green katakana and digits fall in fading columns above the status line "examining lessons 2/3"](docs/screenshots/rain.svg)
+
 > *"I know kung fu." — "Show me."*
 
 > [!CAUTION]
@@ -282,7 +284,7 @@ afterwards, so it leaves nothing in your scrollback. It's off when stderr isn't 
 `KUNGFU_RAIN=0` is set. It becomes a one-line spinner with `NO_COLOR`. Set
 `KUNGFU_RAIN_ASCII=1` if your font lacks katakana. To just watch it, run `kungfu rain`.
 
-![Digital rain above a status line while lessons are examined](docs/screenshots/rain.svg)
+The animation at the top of this page is the real thing, recorded frame by frame.
 
 ## What stays private
 
@@ -539,7 +541,9 @@ The package lives in `src/kungfu/`; `./kungfu` is a launcher that runs it from t
 The screenshots in `docs/screenshots/` are generated, not captured: `python3 docs/screenshots/generate.py`
 builds a made-up home folder (memories, a repo, a vault with invented people) in a temporary directory,
 runs kungfu's real scan and checklists against it with canned Claude answers, and converts the colored
-output to SVG. No API key is needed, and none of your own data appears in them.
+output to SVG. No API key is needed, and none of your own data appears in them. The rain at the top is
+42 frames of the real `kungfu.rain.Field` at its own 14 frames a second, looped with CSS inside the SVG;
+where animation is off or reduced, it shows the first frame.
 
 ## License
 

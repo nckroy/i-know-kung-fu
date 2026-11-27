@@ -89,18 +89,55 @@ def parse(text: str) -> list[list[tuple[str, dict]]]:
     return lines
 
 
+def _frame(width: int, height: int, title: str, style: str = "") -> list[str]:
+    return [f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}">',
+            *([f"<style>{style}</style>"] if style else []),
+            f'<rect width="{width}" height="{height}" rx="8" fill="{BG}"/>',
+            '<circle cx="18" cy="16" r="5" fill="#ff5f57"/><circle cx="34" cy="16" r="5" fill="#febc2e"/>'
+            '<circle cx="50" cy="16" r="5" fill="#28c840"/>',
+            f'<text x="{width / 2}" y="20" fill="{DIM}" font-size="12" text-anchor="middle" '
+            f'font-family="-apple-system, Segoe UI, sans-serif">{html.escape(title)}</text>',
+            f'<g font-family="Menlo, Consolas, \'DejaVu Sans Mono\', monospace" font-size="{FONT}" xml:space="preserve">']
+
+
+def _size(lines) -> tuple[int, int, int]:
+    cols = max([COLS] + [sum(len(t) for t, _ in runs) for runs in lines])
+    return cols, int(cols * CELL_W + 32), int(len(lines) * LINE_H + 56)
+
+
 def svg(text: str, title: str, path: Path) -> None:
     lines = parse(text)
-    cols = max([COLS] + [sum(len(t) for t, _ in runs) for runs in lines])
-    width = int(cols * CELL_W + 32)
-    height = int(len(lines) * LINE_H + 56)
-    out = [f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}">',
-           f'<rect width="{width}" height="{height}" rx="8" fill="{BG}"/>',
-           '<circle cx="18" cy="16" r="5" fill="#ff5f57"/><circle cx="34" cy="16" r="5" fill="#febc2e"/>'
-           '<circle cx="50" cy="16" r="5" fill="#28c840"/>',
-           f'<text x="{width / 2}" y="20" fill="{DIM}" font-size="12" text-anchor="middle" '
-           f'font-family="-apple-system, Segoe UI, sans-serif">{html.escape(title)}</text>',
-           f'<g font-family="Menlo, Consolas, \'DejaVu Sans Mono\', monospace" font-size="{FONT}" xml:space="preserve">']
+    cols, width, height = _size(lines)
+    out = _frame(width, height, title) + _body(lines)
+    out.append("</g></svg>")
+    path.write_text("\n".join(out), encoding="utf-8")
+    print(f"wrote {path.relative_to(ROOT)} ({cols} columns, {len(lines)} lines)")
+
+
+def svg_animated(frames: list[str], title: str, path: Path, fps: float) -> None:
+    """Frames shown one after another, looping, with CSS (which GitHub runs inside SVG images).
+    The first frame shows by itself where animation is off or reduced."""
+    parsed = [parse(f) for f in frames]
+    rows = max(len(p) for p in parsed)
+    parsed = [p + [[] for _ in range(rows - len(p))] for p in parsed]
+    cols, width, height = _size(max(parsed, key=lambda p: max(sum(len(t) for t, _ in r) for r in p)))
+    n, total = len(parsed), len(parsed) / fps
+    style = (f".f{{opacity:0;animation:k {total:.3f}s step-end infinite}}"
+             f"@keyframes k{{0%{{opacity:1}}{100 / n:.4f}%{{opacity:0}}100%{{opacity:0}}}}"
+             ".f0{opacity:1}"
+             "@media (prefers-reduced-motion:reduce){.f{animation:none}}")
+    out = _frame(width, height, title, style)
+    for i, lines in enumerate(parsed):
+        out.append(f'<g class="f f{i}" style="animation-delay:{i / fps:.3f}s">')
+        out += _body(lines)
+        out.append("</g>")
+    out.append("</g></svg>")
+    path.write_text("\n".join(out), encoding="utf-8")
+    print(f"wrote {path.relative_to(ROOT)} ({cols} columns, {rows} lines, {n} frames, {total:.1f}s loop)")
+
+
+def _body(lines) -> list[str]:
+    out: list[str] = []
     for row, runs in enumerate(lines):
         y = 44 + row * LINE_H + 13
         col = 0
@@ -110,17 +147,16 @@ def svg(text: str, title: str, path: Path) -> None:
             for m in re.finditer(r"\S+", txt):
                 word = m.group(0)
                 fill = st.get("fg", FG)
-                attrs = [f'x="{16 + (col + m.start()) * CELL_W:.1f}"', f'y="{y}"', f'fill="{fill}"',
-                         f'textLength="{len(word) * CELL_W:.1f}"', 'lengthAdjust="spacingAndGlyphs"']
+                attrs = [f'x="{16 + (col + m.start()) * CELL_W:.1f}"', f'y="{y}"', f'fill="{fill}"']
+                if len(word) > 1:  # a single glyph starts at its column and can't drift
+                    attrs += [f'textLength="{len(word) * CELL_W:.1f}"', 'lengthAdjust="spacingAndGlyphs"']
                 if st.get("bold"):
                     attrs.append('font-weight="bold"')
                 if st.get("dim"):
                     attrs.append('fill-opacity="0.55"')
                 out.append(f"<text {' '.join(attrs)}>{html.escape(word)}</text>")
             col += len(txt)
-    out.append("</g></svg>")
-    path.write_text("\n".join(out), encoding="utf-8")
-    print(f"wrote {path.relative_to(ROOT)} ({cols} columns, {len(lines)} lines)")
+    return out
 
 
 # --- a made-up home folder ----------------------------------------------------------------------
@@ -285,18 +321,23 @@ def main() -> None:
             svg("$ kungfu import lessons.kungfu --wiki ~/wiki\n…\n" + frame, "kungfu import: lessons examined against your notes",
                 OUT / "import-review.svg")
 
-            # 6. the activity indicator
+            # 6. the activity indicator, animated: the real Field stepped at kungfu's own frame rate
             import random
+            import time
 
             from kungfu import rain
 
-            field = rain.Field(COLS, 7, rng=random.Random(7))
-            for _ in range(40):
+            field = rain.Field(COLS, 6, rng=random.Random(7))
+            for _ in range(30):  # start mid-fall, not from an empty screen
                 field.step()
             r = rain.Rain("Examining 12 lesson(s) against your notes", stream=io.StringIO(), force=True)
             r.status("examining lessons 2/3")
-            r._start -= 9.4
-            svg("\n".join(field.render("truecolor")) + "\n" + r._status_line(), "while it works", OUT / "rain.svg")
+            frames = []
+            for i in range(42):
+                field.step()
+                r._start = time.monotonic() - (9.0 + i / rain.Rain.FPS)
+                frames.append("\n".join(field.render("truecolor")) + "\n" + r._status_line())
+            svg_animated(frames, "kungfu import · while it works", OUT / "rain.svg", fps=rain.Rain.FPS)
 
 
 if __name__ == "__main__":

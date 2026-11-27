@@ -3,10 +3,10 @@
 <circle cx="18" cy="16" r="5" fill="#ff5f57"/><circle cx="34" cy="16" r="5" fill="#febc2e"/><circle cx="50" cy="16" r="5" fill="#28c840"/>
 <text x="520.0" y="20" fill="#6e7681" font-size="12" text-anchor="middle" font-family="-apple-system, Segoe UI, sans-serif">kungfu init: choosing what to scrub</text>
 <g font-family="Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="14" xml:space="preserve">
-<text x="16.0" y="57" fill="#c9d1d9" textLength="8.4" lengthAdjust="spacingAndGlyphs">$</text>
+<text x="16.0" y="57" fill="#c9d1d9">$</text>
 <text x="32.8" y="57" fill="#c9d1d9" textLength="50.4" lengthAdjust="spacingAndGlyphs">kungfu</text>
 <text x="91.6" y="57" fill="#c9d1d9" textLength="33.6" lengthAdjust="spacingAndGlyphs">init</text>
-<text x="16.0" y="75" fill="#c9d1d9" textLength="8.4" lengthAdjust="spacingAndGlyphs">…</text>
+<text x="16.0" y="75" fill="#c9d1d9">…</text>
 <text x="16.0" y="93" fill="#c9d1d9" textLength="58.8" lengthAdjust="spacingAndGlyphs" font-weight="bold">People:</text>
 <text x="83.2" y="93" fill="#c9d1d9" textLength="42.0" lengthAdjust="spacingAndGlyphs" font-weight="bold">which</text>
 <text x="133.6" y="93" fill="#c9d1d9" textLength="50.4" lengthAdjust="spacingAndGlyphs" font-weight="bold">should</text>
@@ -15,7 +15,7 @@
 <text x="293.2" y="93" fill="#c9d1d9" textLength="33.6" lengthAdjust="spacingAndGlyphs" font-weight="bold">from</text>
 <text x="335.2" y="93" fill="#c9d1d9" textLength="67.2" lengthAdjust="spacingAndGlyphs" font-weight="bold">exports?</text>
 <text x="32.8" y="111" fill="#3fb950" textLength="25.2" lengthAdjust="spacingAndGlyphs" font-weight="bold">[x]</text>
-<text x="66.4" y="111" fill="#c9d1d9" textLength="8.4" lengthAdjust="spacingAndGlyphs">=</text>
+<text x="66.4" y="111" fill="#c9d1d9">=</text>
 <text x="83.2" y="111" fill="#c9d1d9" textLength="75.6" lengthAdjust="spacingAndGlyphs">scrubbed:</text>
 <text x="167.2" y="111" fill="#c9d1d9" textLength="67.2" lengthAdjust="spacingAndGlyphs">replaced</text>
 <text x="242.8" y="111" fill="#c9d1d9" textLength="33.6" lengthAdjust="spacingAndGlyphs">with</text>
@@ -23,9 +23,9 @@
 <text x="360.4" y="111" fill="#c9d1d9" textLength="16.8" lengthAdjust="spacingAndGlyphs">in</text>
 <text x="385.6" y="111" fill="#c9d1d9" textLength="84.0" lengthAdjust="spacingAndGlyphs">everything</text>
 <text x="478.0" y="111" fill="#c9d1d9" textLength="67.2" lengthAdjust="spacingAndGlyphs">exported</text>
-<text x="32.8" y="129" fill="#c9d1d9" textLength="8.4" lengthAdjust="spacingAndGlyphs">[</text>
-<text x="49.6" y="129" fill="#c9d1d9" textLength="8.4" lengthAdjust="spacingAndGlyphs">]</text>
-<text x="66.4" y="129" fill="#c9d1d9" textLength="8.4" lengthAdjust="spacingAndGlyphs">=</text>
+<text x="32.8" y="129" fill="#c9d1d9">[</text>
+<text x="49.6" y="129" fill="#c9d1d9">]</text>
+<text x="66.4" y="129" fill="#c9d1d9">=</text>
 <text x="83.2" y="129" fill="#c9d1d9" textLength="33.6" lengthAdjust="spacingAndGlyphs">left</text>
 <text x="125.2" y="129" fill="#c9d1d9" textLength="16.8" lengthAdjust="spacingAndGlyphs">as</text>
 <text x="150.4" y="129" fill="#c9d1d9" textLength="58.8" lengthAdjust="spacingAndGlyphs">written</text>
@@ -43,45 +43,45 @@
 <text x="41.2" y="165" fill="#3fb950" textLength="25.2" lengthAdjust="spacingAndGlyphs" font-weight="bold">[x]</text>
 <text x="74.8" y="165" fill="#c9d1d9" textLength="33.6" lengthAdjust="spacingAndGlyphs">Dana</text>
 <text x="116.8" y="165" fill="#c9d1d9" textLength="75.6" lengthAdjust="spacingAndGlyphs">Whitfield</text>
-<text x="209.2" y="165" fill="#3fb950" textLength="8.4" lengthAdjust="spacingAndGlyphs">→</text>
+<text x="209.2" y="165" fill="#3fb950">→</text>
 <text x="226.0" y="165" fill="#3fb950" textLength="67.2" lengthAdjust="spacingAndGlyphs">[person]</text>
 <text x="352.0" y="165" fill="#c9d1d9" textLength="16.8" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">1×</text>
-<text x="377.2" y="165" fill="#c9d1d9" textLength="8.4" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">·</text>
+<text x="377.2" y="165" fill="#c9d1d9" fill-opacity="0.55">·</text>
 <text x="394.0" y="165" fill="#c9d1d9" textLength="50.4" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">People</text>
 <text x="452.8" y="165" fill="#c9d1d9" textLength="58.8" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">folder,</text>
 <text x="520.0" y="165" fill="#c9d1d9" textLength="42.0" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">named</text>
 <text x="570.4" y="165" fill="#c9d1d9" textLength="16.8" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">in</text>
 <text x="595.6" y="165" fill="#c9d1d9" textLength="33.6" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">text</text>
-<text x="637.6" y="165" fill="#c9d1d9" textLength="8.4" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">·</text>
+<text x="637.6" y="165" fill="#c9d1d9" fill-opacity="0.55">·</text>
 <text x="654.4" y="165" fill="#c9d1d9" textLength="67.2" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">detected</text>
 <text x="730.0" y="165" fill="#c9d1d9" textLength="109.2" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">automatically</text>
-<text x="24.4" y="183" fill="#3fb950" textLength="8.4" lengthAdjust="spacingAndGlyphs" font-weight="bold">❯</text>
-<text x="41.2" y="183" fill="#c9d1d9" textLength="8.4" lengthAdjust="spacingAndGlyphs">[</text>
-<text x="58.0" y="183" fill="#c9d1d9" textLength="8.4" lengthAdjust="spacingAndGlyphs">]</text>
+<text x="24.4" y="183" fill="#3fb950" font-weight="bold">❯</text>
+<text x="41.2" y="183" fill="#c9d1d9">[</text>
+<text x="58.0" y="183" fill="#c9d1d9">]</text>
 <text x="74.8" y="183" fill="#c9d1d9" textLength="33.6" lengthAdjust="spacingAndGlyphs" font-weight="bold">Lena</text>
 <text x="116.8" y="183" fill="#c9d1d9" textLength="50.4" lengthAdjust="spacingAndGlyphs" font-weight="bold">Okafor</text>
 <text x="209.2" y="183" fill="#c9d1d9" textLength="33.6" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">left</text>
 <text x="251.2" y="183" fill="#c9d1d9" textLength="16.8" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">as</text>
 <text x="276.4" y="183" fill="#c9d1d9" textLength="58.8" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">written</text>
 <text x="352.0" y="183" fill="#c9d1d9" textLength="16.8" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">1×</text>
-<text x="377.2" y="183" fill="#c9d1d9" textLength="8.4" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">·</text>
+<text x="377.2" y="183" fill="#c9d1d9" fill-opacity="0.55">·</text>
 <text x="394.0" y="183" fill="#c9d1d9" textLength="50.4" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">People</text>
 <text x="452.8" y="183" fill="#c9d1d9" textLength="58.8" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">folder,</text>
 <text x="520.0" y="183" fill="#c9d1d9" textLength="42.0" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">named</text>
 <text x="570.4" y="183" fill="#c9d1d9" textLength="16.8" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">in</text>
 <text x="595.6" y="183" fill="#c9d1d9" textLength="33.6" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">text</text>
-<text x="637.6" y="183" fill="#c9d1d9" textLength="8.4" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">·</text>
+<text x="637.6" y="183" fill="#c9d1d9" fill-opacity="0.55">·</text>
 <text x="654.4" y="183" fill="#c9d1d9" textLength="67.2" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">detected</text>
 <text x="730.0" y="183" fill="#c9d1d9" textLength="109.2" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">automatically</text>
 <text x="41.2" y="201" fill="#3fb950" textLength="25.2" lengthAdjust="spacingAndGlyphs" font-weight="bold">[x]</text>
 <text x="74.8" y="201" fill="#c9d1d9" textLength="33.6" lengthAdjust="spacingAndGlyphs">Dana</text>
-<text x="209.2" y="201" fill="#3fb950" textLength="8.4" lengthAdjust="spacingAndGlyphs">→</text>
+<text x="209.2" y="201" fill="#3fb950">→</text>
 <text x="226.0" y="201" fill="#3fb950" textLength="67.2" lengthAdjust="spacingAndGlyphs">[person]</text>
 <text x="352.0" y="201" fill="#c9d1d9" textLength="16.8" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">1×</text>
-<text x="377.2" y="201" fill="#c9d1d9" textLength="8.4" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">·</text>
+<text x="377.2" y="201" fill="#c9d1d9" fill-opacity="0.55">·</text>
 <text x="394.0" y="201" fill="#c9d1d9" textLength="33.6" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">part</text>
 <text x="436.0" y="201" fill="#c9d1d9" textLength="16.8" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">of</text>
-<text x="461.2" y="201" fill="#c9d1d9" textLength="8.4" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">a</text>
+<text x="461.2" y="201" fill="#c9d1d9" fill-opacity="0.55">a</text>
 <text x="478.0" y="201" fill="#c9d1d9" textLength="33.6" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">name</text>
 <text x="520.0" y="201" fill="#c9d1d9" textLength="16.8" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">in</text>
 <text x="545.2" y="201" fill="#c9d1d9" textLength="33.6" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">your</text>
@@ -89,13 +89,13 @@
 <text x="646.0" y="201" fill="#c9d1d9" textLength="50.4" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">folder</text>
 <text x="41.2" y="219" fill="#3fb950" textLength="25.2" lengthAdjust="spacingAndGlyphs" font-weight="bold">[x]</text>
 <text x="74.8" y="219" fill="#c9d1d9" textLength="33.6" lengthAdjust="spacingAndGlyphs">Lena</text>
-<text x="209.2" y="219" fill="#3fb950" textLength="8.4" lengthAdjust="spacingAndGlyphs">→</text>
+<text x="209.2" y="219" fill="#3fb950">→</text>
 <text x="226.0" y="219" fill="#3fb950" textLength="67.2" lengthAdjust="spacingAndGlyphs">[person]</text>
 <text x="352.0" y="219" fill="#c9d1d9" textLength="16.8" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">1×</text>
-<text x="377.2" y="219" fill="#c9d1d9" textLength="8.4" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">·</text>
+<text x="377.2" y="219" fill="#c9d1d9" fill-opacity="0.55">·</text>
 <text x="394.0" y="219" fill="#c9d1d9" textLength="33.6" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">part</text>
 <text x="436.0" y="219" fill="#c9d1d9" textLength="16.8" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">of</text>
-<text x="461.2" y="219" fill="#c9d1d9" textLength="8.4" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">a</text>
+<text x="461.2" y="219" fill="#c9d1d9" fill-opacity="0.55">a</text>
 <text x="478.0" y="219" fill="#c9d1d9" textLength="33.6" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">name</text>
 <text x="520.0" y="219" fill="#c9d1d9" textLength="16.8" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">in</text>
 <text x="545.2" y="219" fill="#c9d1d9" textLength="33.6" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">your</text>
@@ -103,13 +103,13 @@
 <text x="646.0" y="219" fill="#c9d1d9" textLength="50.4" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">folder</text>
 <text x="41.2" y="237" fill="#3fb950" textLength="25.2" lengthAdjust="spacingAndGlyphs" font-weight="bold">[x]</text>
 <text x="74.8" y="237" fill="#c9d1d9" textLength="50.4" lengthAdjust="spacingAndGlyphs">Okafor</text>
-<text x="209.2" y="237" fill="#3fb950" textLength="8.4" lengthAdjust="spacingAndGlyphs">→</text>
+<text x="209.2" y="237" fill="#3fb950">→</text>
 <text x="226.0" y="237" fill="#3fb950" textLength="67.2" lengthAdjust="spacingAndGlyphs">[person]</text>
 <text x="352.0" y="237" fill="#c9d1d9" textLength="16.8" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">1×</text>
-<text x="377.2" y="237" fill="#c9d1d9" textLength="8.4" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">·</text>
+<text x="377.2" y="237" fill="#c9d1d9" fill-opacity="0.55">·</text>
 <text x="394.0" y="237" fill="#c9d1d9" textLength="33.6" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">part</text>
 <text x="436.0" y="237" fill="#c9d1d9" textLength="16.8" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">of</text>
-<text x="461.2" y="237" fill="#c9d1d9" textLength="8.4" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">a</text>
+<text x="461.2" y="237" fill="#c9d1d9" fill-opacity="0.55">a</text>
 <text x="478.0" y="237" fill="#c9d1d9" textLength="33.6" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">name</text>
 <text x="520.0" y="237" fill="#c9d1d9" textLength="16.8" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">in</text>
 <text x="545.2" y="237" fill="#c9d1d9" textLength="33.6" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">your</text>
@@ -117,41 +117,41 @@
 <text x="646.0" y="237" fill="#c9d1d9" textLength="50.4" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">folder</text>
 <text x="41.2" y="255" fill="#3fb950" textLength="25.2" lengthAdjust="spacingAndGlyphs" font-weight="bold">[x]</text>
 <text x="74.8" y="255" fill="#c9d1d9" textLength="75.6" lengthAdjust="spacingAndGlyphs">Whitfield</text>
-<text x="209.2" y="255" fill="#3fb950" textLength="8.4" lengthAdjust="spacingAndGlyphs">→</text>
+<text x="209.2" y="255" fill="#3fb950">→</text>
 <text x="226.0" y="255" fill="#3fb950" textLength="67.2" lengthAdjust="spacingAndGlyphs">[person]</text>
 <text x="352.0" y="255" fill="#c9d1d9" textLength="16.8" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">1×</text>
-<text x="377.2" y="255" fill="#c9d1d9" textLength="8.4" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">·</text>
+<text x="377.2" y="255" fill="#c9d1d9" fill-opacity="0.55">·</text>
 <text x="394.0" y="255" fill="#c9d1d9" textLength="33.6" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">part</text>
 <text x="436.0" y="255" fill="#c9d1d9" textLength="16.8" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">of</text>
-<text x="461.2" y="255" fill="#c9d1d9" textLength="8.4" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">a</text>
+<text x="461.2" y="255" fill="#c9d1d9" fill-opacity="0.55">a</text>
 <text x="478.0" y="255" fill="#c9d1d9" textLength="33.6" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">name</text>
 <text x="520.0" y="255" fill="#c9d1d9" textLength="16.8" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">in</text>
 <text x="545.2" y="255" fill="#c9d1d9" textLength="33.6" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">your</text>
 <text x="587.2" y="255" fill="#c9d1d9" textLength="50.4" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">People</text>
 <text x="646.0" y="255" fill="#c9d1d9" textLength="50.4" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">folder</text>
-<text x="32.8" y="273" fill="#3fb950" textLength="8.4" lengthAdjust="spacingAndGlyphs">5</text>
+<text x="32.8" y="273" fill="#3fb950">5</text>
 <text x="49.6" y="273" fill="#3fb950" textLength="67.2" lengthAdjust="spacingAndGlyphs">scrubbed</text>
-<text x="125.2" y="273" fill="#3fb950" textLength="8.4" lengthAdjust="spacingAndGlyphs">·</text>
-<text x="142.0" y="273" fill="#3fb950" textLength="8.4" lengthAdjust="spacingAndGlyphs">1</text>
+<text x="125.2" y="273" fill="#3fb950">·</text>
+<text x="142.0" y="273" fill="#3fb950">1</text>
 <text x="158.8" y="273" fill="#3fb950" textLength="33.6" lengthAdjust="spacingAndGlyphs">left</text>
 <text x="200.8" y="273" fill="#3fb950" textLength="16.8" lengthAdjust="spacingAndGlyphs">as</text>
 <text x="226.0" y="273" fill="#3fb950" textLength="58.8" lengthAdjust="spacingAndGlyphs">written</text>
-<text x="301.6" y="273" fill="#c9d1d9" textLength="8.4" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">·</text>
+<text x="301.6" y="273" fill="#c9d1d9" fill-opacity="0.55">·</text>
 <text x="326.8" y="273" fill="#c9d1d9" textLength="16.8" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">↑↓</text>
 <text x="352.0" y="273" fill="#c9d1d9" textLength="33.6" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">move</text>
-<text x="394.0" y="273" fill="#c9d1d9" textLength="8.4" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">·</text>
+<text x="394.0" y="273" fill="#c9d1d9" fill-opacity="0.55">·</text>
 <text x="410.8" y="273" fill="#c9d1d9" textLength="42.0" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">space</text>
 <text x="461.2" y="273" fill="#c9d1d9" textLength="33.6" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">tick</text>
-<text x="503.2" y="273" fill="#c9d1d9" textLength="8.4" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">·</text>
-<text x="520.0" y="273" fill="#c9d1d9" textLength="8.4" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">a</text>
+<text x="503.2" y="273" fill="#c9d1d9" fill-opacity="0.55">·</text>
+<text x="520.0" y="273" fill="#c9d1d9" fill-opacity="0.55">a</text>
 <text x="536.8" y="273" fill="#c9d1d9" textLength="67.2" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">all/none</text>
-<text x="612.4" y="273" fill="#c9d1d9" textLength="8.4" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">·</text>
-<text x="629.2" y="273" fill="#c9d1d9" textLength="8.4" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">→</text>
+<text x="612.4" y="273" fill="#c9d1d9" fill-opacity="0.55">·</text>
+<text x="629.2" y="273" fill="#c9d1d9" fill-opacity="0.55">→</text>
 <text x="646.0" y="273" fill="#c9d1d9" textLength="58.8" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">details</text>
-<text x="713.2" y="273" fill="#c9d1d9" textLength="8.4" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">·</text>
+<text x="713.2" y="273" fill="#c9d1d9" fill-opacity="0.55">·</text>
 <text x="730.0" y="273" fill="#c9d1d9" textLength="42.0" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">enter</text>
 <text x="780.4" y="273" fill="#c9d1d9" textLength="50.4" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">accept</text>
-<text x="839.2" y="273" fill="#c9d1d9" textLength="8.4" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">·</text>
-<text x="856.0" y="273" fill="#c9d1d9" textLength="8.4" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">q</text>
+<text x="839.2" y="273" fill="#c9d1d9" fill-opacity="0.55">·</text>
+<text x="856.0" y="273" fill="#c9d1d9" fill-opacity="0.55">q</text>
 <text x="872.8" y="273" fill="#c9d1d9" textLength="50.4" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">cancel</text>
 </g></svg>
