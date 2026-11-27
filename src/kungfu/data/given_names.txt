@@ -1,0 +1,83 @@
+# Common given names across many cultures, one or more per line, used only to recognize people's
+# names in your own notes so they can be offered for scrubbing. Supplements the system's
+# /usr/share/dict/propernames, which is small and mostly Anglo. Lowercase, space-separated.
+# English-speaking
+aaron abby abigail ada adam addison adrian adrienne aidan aiden alan alana albert alec alex alexa alexander alexandra
+alexis alfred alice alicia alison allison alyssa amanda amber amelia amy andre andrea andrew andy angela angelica
+angie anita ann anna annabelle anne annette annie anthony april aria ariana ariel arthur ashley audrey austin ava
+avery bailey barbara barry beatrice becky belinda ben benjamin bernard beth bethany betty beverly bill billy blake
+bob bobby bonnie brad bradley brandi brandon brandy brenda brendan brent brett brian briana brianna bridget brittany
+brooke bruce bryan brynn caitlin caitlyn caleb calvin cameron camila candace cara carl carla carly carmen carol
+carole caroline carolyn carrie carter casey cassandra cassidy catherine cathy cecilia chad chandler charlene charles
+charlie charlotte chase chelsea cheryl chloe chris christian christina christine christopher christy cindy claire
+clara clarence claudia clay clayton cody colby cole colin colleen connor constance corey courtney craig crystal
+curtis cynthia daisy dakota dale dallas dalton damian dana daniel danielle danny darlene darren darryl dave david
+dawn dean deanna debbie deborah debra delaney denise dennis derek desiree destiny devin devon diana diane dianne
+dominic don donald donna dora doris dorothy doug douglas drew dustin dylan earl ed eddie edgar edith edward edwin
+eileen elaine eleanor elena eli elijah elisa elise eliza elizabeth ella ellen ellie elliot elliott emily emma eric
+erica erik erin ernest esther ethan eugene eva evan evelyn faith felicia fiona frances francis frank franklin
+fred freddie frederick gabriel gabriella gabrielle gail garrett gary gavin gene geoffrey george georgia gerald
+gina glen glenda glenn gloria gordon grace graham grant greg gregory gwen hailey haley hannah harold harper harriet
+harry harvey hayden hazel heather heidi helen henry herbert hillary holly hope howard hunter ian imogen irene iris
+isaac isabel isabella isabelle ivy jack jackie jackson jacob jacqueline jade jaime jake james jamie jan jane janet
+janice jared jasmine jason jay jean jeanette jeanne jeff jeffrey jenna jennifer jenny jeremiah jeremy jerry jesse
+jessica jill jillian jim jimmy jo joan joanna joanne jocelyn jodi jody joe joel john johnny jon jonathan jordan
+joseph josephine josh joshua joy joyce judith judy julia julian julie june justin kaitlyn kara karen kari karl
+kate katelyn katherine kathleen kathryn kathy katie katrina kay kayla keith kelly kelsey ken kendall kendra kenneth
+kerry kevin kim kimberly kirk kristen kristin kristina kristy krystal kurt kyle lacey lance larry laura lauren
+laurie leah lee leigh leo leon leonard leslie lewis liam lillian lily linda lindsay lindsey lisa liz lloyd logan
+lois lori lorraine louis louise lucas lucy luke lydia lynn mackenzie madeline madison maggie mallory mandy marc
+marcia marcus margaret maria marian marie marilyn marion marissa marjorie mark marsha marshall martha martin marvin
+mary mason matt matthew maureen max maxine maya megan melanie melinda melissa melody meredith mia michael michele
+michelle mike mildred miles mindy miranda misty mitchell molly monica morgan nancy naomi natalie natasha nathan
+nathaniel neil nicholas nick nicole nikki nina noah nora norma norman oliver olivia owen paige pam pamela parker
+patricia patrick patsy paul paula peggy penny peter phil philip phillip phyllis piper preston priscilla quinn
+rachel ralph randall randy ray raymond rebecca rebekah regina reid renee rhonda richard rick ricky riley rita rob
+robert roberta robin rodney roger ronald ronnie rose rosemary ross roy ruby russell ruth ryan sabrina sadie sally
+sam samantha samuel sandra sandy sara sarah savannah scott sean seth shane shannon sharon shawn sheila shelby
+shelley sherri sherry shirley sierra skylar sophia sophie spencer stacey stacy stanley stella stephanie stephen
+steve steven sue susan suzanne sydney sylvia tabitha tamara tammy tanya tara taylor ted teresa terri terry tessa
+theodore theresa thomas tiffany tim timothy tina todd tom tommy tony tracey tracy travis trevor tricia trinity
+troy tyler valerie vanessa vera veronica vicki vickie victor victoria vincent violet virginia wade walter wanda
+warren wayne wendy wesley whitney william willow wyatt zachary zoe zoey charise
+# Spanish, Portuguese, Italian
+adriana alberto alejandra alejandro alfonso alicia alvaro ana andres angel antonio armando arturo beatriz bruno
+camila carlos carmen catalina cesar claudio cristina daniela dario diego eduardo elena emilio enrique esteban
+eva federico felipe fernanda fernando francesca francisco gabriela gerardo giovanni giulia giuseppe gonzalo
+guillermo gustavo hector hugo ignacio isabela javier jesus joao joaquin jorge jose juan julio laura leonardo
+lorenzo lucia luciana luis luisa manuel marco marcos margarita maria mariana mario marta mateo matteo miguel
+nicolas oscar pablo paola patricia pedro rafael ramon raul ricardo roberto rodrigo rosa sergio silvia sofia
+teresa tomas valentina valeria vicente ximena
+# French, German, Dutch, Nordic, Eastern European
+agnes alain amelie anders anja annika antoine arne astrid aurelie benoit birgit bjorn brigitte camille christophe
+claude dmitri elodie emil erik franz frederik freya gerhard gunnar hans heinz helga henrik ingrid irina ivan jakob
+jan jens johan jonas jorg jurgen karin katarina katja klaus lars leif lena lennart lotte lukas magnus margit marie
+mathilde mats mikael nadia natalia nils olga olaf oskar pascal petra pierre ragnar rolf sabine sigrid sofie stefan
+sven thierry thijs tobias ulrich ulla vladimir wim yuri yvonne zofia agnieszka katarzyna malgorzata piotr tomasz
+pavel petr jiri milan dragan goran ana marija jelena nikola andrei mihai elena ioana bogdan svetlana tatiana
+# Indian and South Asian
+aarav aditi aditya ajay akash akshay amit amita amrita anand ananya anil anjali ankit ankita anu anuj anupam
+anusha arjun arun aruna asha ashish ashok bhavna chandra deepa deepak deepika devi dinesh divya gaurav geeta gita
+gopal hari harish hema indira isha jaya jyoti kalpana kamala karan kavita kiran krishna kumar lakshmi madhu
+mahesh manish manoj meena meera mohan mukesh nandini naveen neha nikhil nisha pallavi pankaj pooja prakash pranav
+prashant pratik preeti priya priyanka rahul raj raja rajesh rakesh ram ramesh rani ravi rekha rohan rohit sachin
+sandeep sangeeta sanjay santosh sarita seema shalini shanti sharma shilpa shiva shreya shruti shweta sita smita
+sneha sonia sri srinivas sudha sumit sunil sunita suresh swathi swati tanvi tarun tripti uma usha varun vijay
+vikram vinay vinod vishal vivek yash zara farhan imran ayesha fatima hassan bilal nadia saima sana tariq
+# East and Southeast Asian
+akira ayumi chen chun daisuke fang feng haruki hiroshi hui jia jian jie jin jing jun kaito kazuki keiko kenji
+koji lei li lian lin ling mei min ming naoko ning ping qing rui satoshi shin shu takeshi tao wei wen xiao xin
+yan yang yi ying yong yu yuki yumi yun zhen zhi hyun jiwoon minjun seo soo sung young anh bao duc hoa hung lan
+linh minh ngoc nguyen phuong quang thanh thu trang tuan pham tran
+# Arabic, Persian, Turkish, Hebrew
+abdullah ahmad ahmed ali amir amira aziz farid fatima hamza hana hassan hussein ibrahim jamal karim khalid layla
+leila mahmoud mariam mohamed mohammad mohammed mustafa nasser noor omar rami rana reza samir sara tarek yasmin
+yousef youssef zainab zaid arash dariush farhad mehdi navid parisa shirin ayse burak can elif emre mehmet murat
+zeynep avi chaim eitan noa yael yosef shira tamar
+# African
+abena adaeze ade adebayo ama amara chidi chinedu chioma emeka efua kofi kwame kwabena kwesi nkechi obinna oluwaseun
+seun tunde uche yaw zainabu zola thabo sipho nomvula lerato themba amani baraka juma wanjiru njeri kamau otieno
+# Other common short forms and nicknames
+abe al alfie ali archie barb becca bec bert bo cal cass charly chuck cora dee del dot ed eli fran gabe gus hal
+hank izzy jen jess jojo jules kat kit lex lou mae mags mel meg midge mo ned nell ollie pat pete rae
+ric rod ron roz sal sid stu tess val vic viv zach zeke

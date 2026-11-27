@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "i-know-kung-fu"
+dynamic = ["version"]
+description = "Turn what you and your AI tools have learned into lessons, and check others' lessons against your own notes before importing them."
+readme = "README.md"
+requires-python = ">=3.11"
+license = "Apache-2.0"
+license-files = ["LICENSE", "NOTICE"]
+authors = [{ name = "Nicole Roy" }]
+dependencies = ["anthropic"]
+
+[project.scripts]
+kungfu = "kungfu.cli:main"
+
+[tool.setuptools.dynamic]
+version = {attr = "kungfu.__version__"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["kungfu*"]
+
+[tool.setuptools.package-data]
+kungfu = ["data/*.txt"]

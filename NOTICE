@@ -1,0 +1,21 @@
+I Know Kung-Fu
+Copyright 2026 Nicole Roy
+
+Licensed under the Apache License, Version 2.0 (the "License"); you may not use this software
+except in compliance with the License. You may obtain a copy of the License in the LICENSE file
+or at http://www.apache.org/licenses/LICENSE-2.0
+
+EXPERIMENTAL SOFTWARE. USE IT AT YOUR OWN RISK.
+
+I Know Kung-Fu reads private material (notes, AI assistant memories, agent instruction files),
+sends excerpts of it to a third-party AI service (the Anthropic API), writes bundles intended
+to be shared with other people, and writes other people's lessons into a knowledge base. Its
+scrubbing, redaction and checks are automated and can miss or mishandle personal data, secrets,
+identifiers and sensitive context, and imported lessons can be wrong or harmful. You are
+responsible for reviewing everything it produces before sharing or relying on it, for having
+the right to process and share the material you give it, and for keeping backups.
+
+Unless required by applicable law or agreed to in writing, this software is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. In no
+event shall the copyright holder or contributors be liable for any damages arising from its use.
+See sections 7 (Disclaimer of Warranty) and 8 (Limitation of Liability) of the License.

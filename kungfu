@@ -1,0 +1,97 @@
+#!/usr/bin/env python3
+# Copyright 2026 Nicole Roy
+# SPDX-License-Identifier: Apache-2.0
+"""Run I Know Kung-Fu from this folder.
+
+kungfu needs the Anthropic SDK, and Homebrew's (and most distributions') system Python refuses package
+installs (PEP 668, "externally managed"). So this launcher keeps a private virtual environment holding
+kungfu's dependencies and runs kungfu from src/ with it. Nothing is installed anywhere else.
+
+The environment lives outside this folder, in ~/Library/Application Support/i-know-kung-fu/ on macOS
+(~/.local/share/i-know-kung-fu/ elsewhere; KUNGFU_VENV overrides). Inside a folder that iCloud syncs,
+such as ~/Documents, it would be uploaded, and iCloud marks files in hidden folders as hidden, which
+newer Pythons then ignore. kungfu itself isn't installed into it: it runs from src/, so edits take
+effect at once. The environment is rebuilt when the dependency list in pyproject.toml changes;
+`./kungfu --reinstall` rebuilds it by hand.
+"""
+import hashlib
+import os
+import subprocess
+import sys
+import venv
+
+HERE = os.path.dirname(os.path.realpath(__file__))
+SRC = os.path.join(HERE, "src")
+
+
+def venv_dir() -> str:
+    if os.environ.get("KUNGFU_VENV"):
+        return os.path.expanduser(os.environ["KUNGFU_VENV"])
+    base = (os.path.expanduser("~/Library/Application Support") if sys.platform == "darwin"
+            else os.environ.get("XDG_DATA_HOME") or os.path.expanduser("~/.local/share"))
+    checkout = hashlib.sha256(HERE.encode()).hexdigest()[:10]  # one environment per checkout
+    return os.path.join(base, "i-know-kung-fu", f"venv-{checkout}")
+
+
+VENV = venv_dir()
+PY = os.path.join(VENV, "bin", "python")
+MARKER = os.path.join(VENV, ".kungfu-deps")
+
+
+def dependencies() -> list[str]:
+    import tomllib
+
+    with open(os.path.join(HERE, "pyproject.toml"), "rb") as fh:
+        return list(tomllib.load(fh).get("project", {}).get("dependencies", []))
+
+
+def wanted() -> str:
+    return "\n".join(sorted(dependencies())) + "\n"
+
+
+def setup(reason: str) -> None:
+    deps = dependencies()
+    print(f"{reason}: setting up kungfu's Python environment in {VENV} (one time)…", file=sys.stderr)
+    try:
+        if not os.path.exists(PY):
+            venv.EnvBuilder(with_pip=True, clear=True).create(VENV)
+        if deps:
+            subprocess.run([PY, "-m", "pip", "install", "--quiet", "--disable-pip-version-check", *deps], check=True)
+    except (OSError, subprocess.CalledProcessError) as exc:
+        sys.exit(f"Couldn't set up {VENV} ({exc}).\n"
+                 f"Check the network connection and run ./kungfu again, or set it up by hand:\n"
+                 f"    python3 -m venv '{VENV}' && '{PY}' -m pip install {' '.join(deps)}")
+    with open(MARKER, "w") as fh:
+        fh.write(wanted())
+    print("Done.", file=sys.stderr)
+
+
+def in_venv() -> bool:
+    return os.path.realpath(sys.prefix) == os.path.realpath(VENV)
+
+
+# KUNGFU_NO_VENV=1 runs straight from src/ with whatever Python ran this (tests, or commands that
+# don't need Claude, such as --help, scan or inspect).
+if not in_venv() and not os.environ.get("KUNGFU_NO_VENV"):
+    args = sys.argv[1:]
+    if args[:1] == ["--reinstall"]:
+        setup("Rebuilding")
+        args = args[1:]
+        if not args:
+            sys.exit(0)
+    else:
+        try:
+            current = open(MARKER).read() if os.path.exists(PY) else None
+        except OSError:
+            current = None
+        if current is None:
+            setup("First run")
+        elif current != wanted():
+            setup("Dependencies changed")
+    path = SRC + (os.pathsep + os.environ["PYTHONPATH"] if os.environ.get("PYTHONPATH") else "")
+    os.execve(PY, [PY, "-m", "kungfu", *args], {**os.environ, "PYTHONPATH": path})
+
+sys.path.insert(0, SRC)
+from kungfu.cli import main  # noqa: E402
+
+sys.exit(main())

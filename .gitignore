@@ -1,0 +1,7 @@
+__pycache__/
+*.egg-info/
+.venv/
+*.kungfu
+*.kungfu.tmp
+build/
+dist/

@@ -1,0 +1,242 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="650" viewBox="0 0 1040 650">
+<rect width="1040" height="650" rx="8" fill="#0d1117"/>
+<circle cx="18" cy="16" r="5" fill="#ff5f57"/><circle cx="34" cy="16" r="5" fill="#febc2e"/><circle cx="50" cy="16" r="5" fill="#28c840"/>
+<text x="520.0" y="20" fill="#6e7681" font-size="12" text-anchor="middle" font-family="-apple-system, Segoe UI, sans-serif">kungfu import: lessons examined against your notes</text>
+<g font-family="Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="14" xml:space="preserve">
+<text x="16.0" y="57" fill="#c9d1d9" textLength="8.4" lengthAdjust="spacingAndGlyphs">$</text>
+<text x="32.8" y="57" fill="#c9d1d9" textLength="50.4" lengthAdjust="spacingAndGlyphs">kungfu</text>
+<text x="91.6" y="57" fill="#c9d1d9" textLength="50.4" lengthAdjust="spacingAndGlyphs">import</text>
+<text x="150.4" y="57" fill="#c9d1d9" textLength="117.6" lengthAdjust="spacingAndGlyphs">lessons.kungfu</text>
+<text x="276.4" y="57" fill="#c9d1d9" textLength="50.4" lengthAdjust="spacingAndGlyphs">--wiki</text>
+<text x="335.2" y="57" fill="#c9d1d9" textLength="50.4" lengthAdjust="spacingAndGlyphs">~/wiki</text>
+<text x="16.0" y="75" fill="#c9d1d9" textLength="8.4" lengthAdjust="spacingAndGlyphs">…</text>
+<text x="16.0" y="93" fill="#c9d1d9" textLength="42.0" lengthAdjust="spacingAndGlyphs" font-weight="bold">Which</text>
+<text x="66.4" y="93" fill="#c9d1d9" textLength="58.8" lengthAdjust="spacingAndGlyphs" font-weight="bold">lessons</text>
+<text x="133.6" y="93" fill="#c9d1d9" textLength="16.8" lengthAdjust="spacingAndGlyphs" font-weight="bold">do</text>
+<text x="158.8" y="93" fill="#c9d1d9" textLength="25.2" lengthAdjust="spacingAndGlyphs" font-weight="bold">you</text>
+<text x="192.4" y="93" fill="#c9d1d9" textLength="33.6" lengthAdjust="spacingAndGlyphs" font-weight="bold">want</text>
+<text x="234.4" y="93" fill="#c9d1d9" textLength="16.8" lengthAdjust="spacingAndGlyphs" font-weight="bold">to</text>
+<text x="259.6" y="93" fill="#c9d1d9" textLength="58.8" lengthAdjust="spacingAndGlyphs" font-weight="bold">import?</text>
+<text x="32.8" y="111" fill="#3fb950" textLength="25.2" lengthAdjust="spacingAndGlyphs" font-weight="bold">[x]</text>
+<text x="66.4" y="111" fill="#c9d1d9" textLength="8.4" lengthAdjust="spacingAndGlyphs">=</text>
+<text x="83.2" y="111" fill="#c9d1d9" textLength="67.2" lengthAdjust="spacingAndGlyphs">imported</text>
+<text x="32.8" y="129" fill="#c9d1d9" textLength="8.4" lengthAdjust="spacingAndGlyphs">[</text>
+<text x="49.6" y="129" fill="#c9d1d9" textLength="8.4" lengthAdjust="spacingAndGlyphs">]</text>
+<text x="66.4" y="129" fill="#c9d1d9" textLength="8.4" lengthAdjust="spacingAndGlyphs">=</text>
+<text x="83.2" y="129" fill="#c9d1d9" textLength="58.8" lengthAdjust="spacingAndGlyphs">skipped</text>
+<text x="32.8" y="147" fill="#c9d1d9" textLength="8.4" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">→</text>
+<text x="49.6" y="147" fill="#c9d1d9" textLength="42.0" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">shows</text>
+<text x="100.0" y="147" fill="#c9d1d9" textLength="8.4" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">a</text>
+<text x="116.8" y="147" fill="#c9d1d9" textLength="50.4" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">lesson</text>
+<text x="175.6" y="147" fill="#c9d1d9" textLength="16.8" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">in</text>
+<text x="200.8" y="147" fill="#c9d1d9" textLength="33.6" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">full</text>
+<text x="242.8" y="147" fill="#c9d1d9" textLength="16.8" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">(←</text>
+<text x="268.0" y="147" fill="#c9d1d9" textLength="42.0" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">hides</text>
+<text x="318.4" y="147" fill="#c9d1d9" textLength="33.6" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">it).</text>
+<text x="360.4" y="147" fill="#c9d1d9" textLength="33.6" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">Each</text>
+<text x="402.4" y="147" fill="#c9d1d9" textLength="25.2" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">was</text>
+<text x="436.0" y="147" fill="#c9d1d9" textLength="58.8" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">checked</text>
+<text x="503.2" y="147" fill="#c9d1d9" textLength="58.8" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">against</text>
+<text x="570.4" y="147" fill="#c9d1d9" textLength="33.6" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">your</text>
+<text x="612.4" y="147" fill="#c9d1d9" textLength="50.4" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">notes;</text>
+<text x="671.2" y="147" fill="#c9d1d9" textLength="33.6" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">ones</text>
+<text x="713.2" y="147" fill="#c9d1d9" textLength="33.6" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">that</text>
+<text x="755.2" y="147" fill="#c9d1d9" textLength="42.0" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">don&#x27;t</text>
+<text x="805.6" y="147" fill="#c9d1d9" textLength="42.0" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">apply</text>
+<text x="856.0" y="147" fill="#c9d1d9" textLength="16.8" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">to</text>
+<text x="881.2" y="147" fill="#c9d1d9" textLength="25.2" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">you</text>
+<text x="914.8" y="147" fill="#c9d1d9" textLength="42.0" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">start</text>
+<text x="32.8" y="165" fill="#c9d1d9" textLength="75.6" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">unticked.</text>
+<text x="41.2" y="183" fill="#3fb950" textLength="25.2" lengthAdjust="spacingAndGlyphs" font-weight="bold">[x]</text>
+<text x="74.8" y="183" fill="#c9d1d9" textLength="25.2" lengthAdjust="spacingAndGlyphs">Run</text>
+<text x="108.4" y="183" fill="#c9d1d9" textLength="42.0" lengthAdjust="spacingAndGlyphs">every</text>
+<text x="158.8" y="183" fill="#c9d1d9" textLength="16.8" lengthAdjust="spacingAndGlyphs">CI</text>
+<text x="184.0" y="183" fill="#c9d1d9" textLength="33.6" lengthAdjust="spacingAndGlyphs">gate</text>
+<text x="226.0" y="183" fill="#c9d1d9" textLength="58.8" lengthAdjust="spacingAndGlyphs">locally</text>
+<text x="293.2" y="183" fill="#c9d1d9" textLength="16.8" lengthAdjust="spacingAndGlyphs">on</text>
+<text x="318.4" y="183" fill="#c9d1d9" textLength="25.2" lengthAdjust="spacingAndGlyphs">the</text>
+<text x="352.0" y="183" fill="#c9d1d9" textLength="42.0" lengthAdjust="spacingAndGlyphs">exact</text>
+<text x="402.4" y="183" fill="#c9d1d9" textLength="33.6" lengthAdjust="spacingAndGlyphs">tree</text>
+<text x="444.4" y="183" fill="#c9d1d9" textLength="33.6" lengthAdjust="spacingAndGlyphs">you…</text>
+<text x="494.8" y="183" fill="#3fb950" textLength="50.4" lengthAdjust="spacingAndGlyphs">import</text>
+<text x="562.0" y="183" fill="#c9d1d9" textLength="58.8" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">refines</text>
+<text x="637.6" y="183" fill="#c9d1d9" textLength="33.6" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">high</text>
+<text x="679.6" y="183" fill="#c9d1d9" textLength="84.0" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">confidence</text>
+<text x="780.4" y="183" fill="#c9d1d9" textLength="50.4" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">ci-cd,</text>
+<text x="839.2" y="183" fill="#c9d1d9" textLength="58.8" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">testing</text>
+<text x="914.8" y="183" fill="#c9d1d9" textLength="8.4" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">1</text>
+<text x="931.6" y="183" fill="#c9d1d9" textLength="67.2" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">note(s):</text>
+<text x="1007.2" y="183" fill="#c9d1d9" textLength="16.8" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">1…</text>
+<text x="24.4" y="201" fill="#3fb950" textLength="8.4" lengthAdjust="spacingAndGlyphs" font-weight="bold">❯</text>
+<text x="41.2" y="201" fill="#3fb950" textLength="25.2" lengthAdjust="spacingAndGlyphs" font-weight="bold">[x]</text>
+<text x="74.8" y="201" fill="#c9d1d9" textLength="33.6" lengthAdjust="spacingAndGlyphs" font-weight="bold">Pass</text>
+<text x="116.8" y="201" fill="#c9d1d9" textLength="67.2" lengthAdjust="spacingAndGlyphs" font-weight="bold">--region</text>
+<text x="192.4" y="201" fill="#c9d1d9" textLength="84.0" lengthAdjust="spacingAndGlyphs" font-weight="bold">explicitly</text>
+<text x="284.8" y="201" fill="#c9d1d9" textLength="16.8" lengthAdjust="spacingAndGlyphs" font-weight="bold">on</text>
+<text x="310.0" y="201" fill="#c9d1d9" textLength="42.0" lengthAdjust="spacingAndGlyphs" font-weight="bold">every</text>
+<text x="360.4" y="201" fill="#c9d1d9" textLength="25.2" lengthAdjust="spacingAndGlyphs" font-weight="bold">AWS</text>
+<text x="394.0" y="201" fill="#c9d1d9" textLength="25.2" lengthAdjust="spacingAndGlyphs" font-weight="bold">CLI</text>
+<text x="427.6" y="201" fill="#c9d1d9" textLength="50.4" lengthAdjust="spacingAndGlyphs" font-weight="bold">comma…</text>
+<text x="494.8" y="201" fill="#3fb950" textLength="50.4" lengthAdjust="spacingAndGlyphs">import</text>
+<text x="562.0" y="201" fill="#c9d1d9" textLength="75.6" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">conflicts</text>
+<text x="654.4" y="201" fill="#c9d1d9" textLength="33.6" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">high</text>
+<text x="696.4" y="201" fill="#c9d1d9" textLength="84.0" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">confidence</text>
+<text x="797.2" y="201" fill="#c9d1d9" textLength="25.2" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">aws</text>
+<text x="839.2" y="201" fill="#c9d1d9" textLength="8.4" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">1</text>
+<text x="856.0" y="201" fill="#c9d1d9" textLength="67.2" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">note(s):</text>
+<text x="931.6" y="201" fill="#c9d1d9" textLength="8.4" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">1</text>
+<text x="948.4" y="201" fill="#c9d1d9" textLength="75.6" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">claude-m…</text>
+<text x="83.2" y="219" fill="#c9d1d9" textLength="75.6" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">examined:</text>
+<text x="167.2" y="219" fill="#c9d1d9" textLength="84.0" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">conflicts.</text>
+<text x="259.6" y="219" fill="#c9d1d9" textLength="42.0" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">Their</text>
+<text x="310.0" y="219" fill="#c9d1d9" textLength="25.2" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">AWS</text>
+<text x="343.6" y="219" fill="#c9d1d9" textLength="33.6" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">page</text>
+<text x="385.6" y="219" fill="#c9d1d9" textLength="50.4" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">relies</text>
+<text x="444.4" y="219" fill="#c9d1d9" textLength="16.8" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">on</text>
+<text x="469.6" y="219" fill="#c9d1d9" textLength="33.6" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">each</text>
+<text x="511.6" y="219" fill="#c9d1d9" textLength="75.6" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">profile&#x27;s</text>
+<text x="595.6" y="219" fill="#c9d1d9" textLength="58.8" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">region.</text>
+<text x="662.8" y="219" fill="#c9d1d9" textLength="33.6" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">That</text>
+<text x="704.8" y="219" fill="#c9d1d9" textLength="42.0" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">holds</text>
+<text x="755.2" y="219" fill="#c9d1d9" textLength="16.8" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">in</text>
+<text x="780.4" y="219" fill="#c9d1d9" textLength="16.8" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">an</text>
+<text x="805.6" y="219" fill="#c9d1d9" textLength="92.4" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">interactive</text>
+<text x="906.4" y="219" fill="#c9d1d9" textLength="50.4" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">shell;</text>
+<text x="965.2" y="219" fill="#c9d1d9" textLength="25.2" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">the</text>
+<text x="998.8" y="219" fill="#c9d1d9" textLength="25.2" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">le…</text>
+<text x="83.2" y="237" fill="#c9d1d9" textLength="25.2" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">for</text>
+<text x="116.8" y="237" fill="#c9d1d9" textLength="33.6" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">your</text>
+<text x="158.8" y="237" fill="#c9d1d9" textLength="50.4" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">setup:</text>
+<text x="217.6" y="237" fill="#c9d1d9" textLength="33.6" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">Keep</text>
+<text x="259.6" y="237" fill="#c9d1d9" textLength="75.6" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">profiles,</text>
+<text x="343.6" y="237" fill="#c9d1d9" textLength="25.2" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">and</text>
+<text x="377.2" y="237" fill="#c9d1d9" textLength="25.2" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">add</text>
+<text x="410.8" y="237" fill="#c9d1d9" textLength="67.2" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">--region</text>
+<text x="486.4" y="237" fill="#c9d1d9" textLength="16.8" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">in</text>
+<text x="511.6" y="237" fill="#c9d1d9" textLength="16.8" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">CI</text>
+<text x="536.8" y="237" fill="#c9d1d9" textLength="33.6" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">jobs</text>
+<text x="578.8" y="237" fill="#c9d1d9" textLength="25.2" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">and</text>
+<text x="612.4" y="237" fill="#c9d1d9" textLength="42.0" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">agent</text>
+<text x="662.8" y="237" fill="#c9d1d9" textLength="75.6" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">commands.</text>
+<text x="83.2" y="255" fill="#c9d1d9" textLength="58.8" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">related</text>
+<text x="150.4" y="255" fill="#c9d1d9" textLength="16.8" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">in</text>
+<text x="175.6" y="255" fill="#c9d1d9" textLength="33.6" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">your</text>
+<text x="217.6" y="255" fill="#c9d1d9" textLength="50.4" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">notes:</text>
+<text x="276.4" y="255" fill="#c9d1d9" textLength="176.4" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">wiki/tools/aws-cli.md</text>
+<text x="83.2" y="273" fill="#c9d1d9" textLength="84.0" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">confidence</text>
+<text x="175.6" y="273" fill="#c9d1d9" textLength="33.6" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">high</text>
+<text x="217.6" y="273" fill="#c9d1d9" textLength="8.4" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">·</text>
+<text x="234.4" y="273" fill="#c9d1d9" textLength="67.2" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">evidence</text>
+<text x="310.0" y="273" fill="#c9d1d9" textLength="8.4" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">1</text>
+<text x="326.8" y="273" fill="#c9d1d9" textLength="67.2" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">note(s):</text>
+<text x="402.4" y="273" fill="#c9d1d9" textLength="8.4" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">1</text>
+<text x="419.2" y="273" fill="#c9d1d9" textLength="109.2" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">claude-memory</text>
+<text x="83.2" y="291" fill="#c9d1d9" textLength="336.0" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">────────────────────────────────────────</text>
+<text x="83.2" y="309" fill="#c9d1d9" textLength="92.4" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">**Lesson:**</text>
+<text x="184.0" y="309" fill="#c9d1d9" textLength="42.0" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">Don&#x27;t</text>
+<text x="234.4" y="309" fill="#c9d1d9" textLength="33.6" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">rely</text>
+<text x="276.4" y="309" fill="#c9d1d9" textLength="16.8" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">on</text>
+<text x="301.6" y="309" fill="#c9d1d9" textLength="8.4" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">a</text>
+<text x="318.4" y="309" fill="#c9d1d9" textLength="75.6" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">profile&#x27;s</text>
+<text x="402.4" y="309" fill="#c9d1d9" textLength="58.8" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">default</text>
+<text x="469.6" y="309" fill="#c9d1d9" textLength="50.4" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">region</text>
+<text x="528.4" y="309" fill="#c9d1d9" textLength="16.8" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">in</text>
+<text x="553.6" y="309" fill="#c9d1d9" textLength="50.4" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">agents</text>
+<text x="612.4" y="309" fill="#c9d1d9" textLength="25.2" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">and</text>
+<text x="646.0" y="309" fill="#c9d1d9" textLength="25.2" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">CI;</text>
+<text x="679.6" y="309" fill="#c9d1d9" textLength="33.6" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">pass</text>
+<text x="721.6" y="309" fill="#c9d1d9" textLength="67.2" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">--region</text>
+<text x="797.2" y="309" fill="#c9d1d9" textLength="42.0" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">every</text>
+<text x="847.6" y="309" fill="#c9d1d9" textLength="42.0" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">time.</text>
+<text x="83.2" y="345" fill="#c9d1d9" textLength="16.8" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">##</text>
+<text x="108.4" y="345" fill="#c9d1d9" textLength="25.2" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">Why</text>
+<text x="83.2" y="381" fill="#c9d1d9" textLength="126.0" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">Non-interactive</text>
+<text x="217.6" y="381" fill="#c9d1d9" textLength="50.4" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">shells</text>
+<text x="276.4" y="381" fill="#c9d1d9" textLength="42.0" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">often</text>
+<text x="326.8" y="381" fill="#c9d1d9" textLength="42.0" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">don&#x27;t</text>
+<text x="377.2" y="381" fill="#c9d1d9" textLength="33.6" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">load</text>
+<text x="419.2" y="381" fill="#c9d1d9" textLength="25.2" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">the</text>
+<text x="452.8" y="381" fill="#c9d1d9" textLength="58.8" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">profile</text>
+<text x="520.0" y="381" fill="#c9d1d9" textLength="33.6" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">that</text>
+<text x="562.0" y="381" fill="#c9d1d9" textLength="33.6" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">sets</text>
+<text x="604.0" y="381" fill="#c9d1d9" textLength="25.2" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">the</text>
+<text x="637.6" y="381" fill="#c9d1d9" textLength="58.8" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">region.</text>
+<text x="83.2" y="417" fill="#c9d1d9" textLength="16.8" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">##</text>
+<text x="108.4" y="417" fill="#c9d1d9" textLength="25.2" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">How</text>
+<text x="142.0" y="417" fill="#c9d1d9" textLength="16.8" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">to</text>
+<text x="167.2" y="417" fill="#c9d1d9" textLength="42.0" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">apply</text>
+<text x="83.2" y="453" fill="#c9d1d9" textLength="8.4" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">-</text>
+<text x="100.0" y="453" fill="#c9d1d9" textLength="25.2" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">Add</text>
+<text x="133.6" y="453" fill="#c9d1d9" textLength="67.2" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">--region</text>
+<text x="209.2" y="453" fill="#c9d1d9" textLength="16.8" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">to</text>
+<text x="234.4" y="453" fill="#c9d1d9" textLength="42.0" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">every</text>
+<text x="284.8" y="453" fill="#c9d1d9" textLength="25.2" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">aws</text>
+<text x="318.4" y="453" fill="#c9d1d9" textLength="42.0" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">call,</text>
+<text x="368.8" y="453" fill="#c9d1d9" textLength="75.6" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">including</text>
+<text x="452.8" y="453" fill="#c9d1d9" textLength="42.0" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">quick</text>
+<text x="503.2" y="453" fill="#c9d1d9" textLength="58.8" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">checks.</text>
+<text x="83.2" y="489" fill="#c9d1d9" textLength="16.8" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">##</text>
+<text x="108.4" y="489" fill="#c9d1d9" textLength="33.6" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">When</text>
+<text x="150.4" y="489" fill="#c9d1d9" textLength="16.8" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">it</text>
+<text x="175.6" y="489" fill="#c9d1d9" textLength="58.8" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">applies</text>
+<text x="83.2" y="525" fill="#c9d1d9" textLength="58.8" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">Agents,</text>
+<text x="150.4" y="525" fill="#c9d1d9" textLength="16.8" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">CI</text>
+<text x="175.6" y="525" fill="#c9d1d9" textLength="25.2" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">and</text>
+<text x="209.2" y="525" fill="#c9d1d9" textLength="67.2" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">commands</text>
+<text x="284.8" y="525" fill="#c9d1d9" textLength="50.4" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">handed</text>
+<text x="343.6" y="525" fill="#c9d1d9" textLength="16.8" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">to</text>
+<text x="368.8" y="525" fill="#c9d1d9" textLength="58.8" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">someone</text>
+<text x="436.0" y="525" fill="#c9d1d9" textLength="42.0" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">else.</text>
+<text x="83.2" y="561" fill="#c9d1d9" textLength="16.8" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">##</text>
+<text x="108.4" y="561" fill="#c9d1d9" textLength="33.6" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">When</text>
+<text x="150.4" y="561" fill="#c9d1d9" textLength="16.8" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">it</text>
+<text x="175.6" y="561" fill="#c9d1d9" textLength="58.8" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">doesn&#x27;t</text>
+<text x="83.2" y="597" fill="#c9d1d9" textLength="16.8" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">An</text>
+<text x="108.4" y="597" fill="#c9d1d9" textLength="92.4" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">interactive</text>
+<text x="209.2" y="597" fill="#c9d1d9" textLength="42.0" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">shell</text>
+<text x="259.6" y="597" fill="#c9d1d9" textLength="25.2" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">you</text>
+<text x="293.2" y="597" fill="#c9d1d9" textLength="67.2" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">control.</text>
+<text x="41.2" y="615" fill="#c9d1d9" textLength="8.4" lengthAdjust="spacingAndGlyphs">[</text>
+<text x="58.0" y="615" fill="#c9d1d9" textLength="8.4" lengthAdjust="spacingAndGlyphs">]</text>
+<text x="74.8" y="615" fill="#c9d1d9" textLength="58.8" lengthAdjust="spacingAndGlyphs">Release</text>
+<text x="142.0" y="615" fill="#c9d1d9" textLength="42.0" lengthAdjust="spacingAndGlyphs">notes</text>
+<text x="192.4" y="615" fill="#c9d1d9" textLength="33.6" lengthAdjust="spacingAndGlyphs">list</text>
+<text x="234.4" y="615" fill="#c9d1d9" textLength="42.0" lengthAdjust="spacingAndGlyphs">every</text>
+<text x="284.8" y="615" fill="#c9d1d9" textLength="58.8" lengthAdjust="spacingAndGlyphs">change,</text>
+<text x="352.0" y="615" fill="#c9d1d9" textLength="67.2" lengthAdjust="spacingAndGlyphs">verified</text>
+<text x="427.6" y="615" fill="#c9d1d9" textLength="33.6" lengthAdjust="spacingAndGlyphs">from</text>
+<text x="469.6" y="615" fill="#c9d1d9" textLength="8.4" lengthAdjust="spacingAndGlyphs">…</text>
+<text x="494.8" y="615" fill="#c9d1d9" textLength="33.6" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">skip</text>
+<text x="562.0" y="615" fill="#c9d1d9" textLength="25.2" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">not</text>
+<text x="595.6" y="615" fill="#c9d1d9" textLength="84.0" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">applicable</text>
+<text x="696.4" y="615" fill="#c9d1d9" textLength="50.4" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">medium</text>
+<text x="755.2" y="615" fill="#c9d1d9" textLength="84.0" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">confidence</text>
+<text x="856.0" y="615" fill="#c9d1d9" textLength="50.4" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">ci-cd,</text>
+<text x="914.8" y="615" fill="#c9d1d9" textLength="58.8" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">writing</text>
+<text x="990.4" y="615" fill="#c9d1d9" textLength="8.4" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">1</text>
+<text x="1007.2" y="615" fill="#c9d1d9" textLength="16.8" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">n…</text>
+<text x="32.8" y="633" fill="#3fb950" textLength="8.4" lengthAdjust="spacingAndGlyphs">2</text>
+<text x="49.6" y="633" fill="#3fb950" textLength="16.8" lengthAdjust="spacingAndGlyphs">to</text>
+<text x="74.8" y="633" fill="#3fb950" textLength="50.4" lengthAdjust="spacingAndGlyphs">import</text>
+<text x="133.6" y="633" fill="#3fb950" textLength="8.4" lengthAdjust="spacingAndGlyphs">·</text>
+<text x="150.4" y="633" fill="#3fb950" textLength="8.4" lengthAdjust="spacingAndGlyphs">1</text>
+<text x="167.2" y="633" fill="#3fb950" textLength="58.8" lengthAdjust="spacingAndGlyphs">skipped</text>
+<text x="242.8" y="633" fill="#c9d1d9" textLength="8.4" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">·</text>
+<text x="268.0" y="633" fill="#c9d1d9" textLength="16.8" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">↑↓</text>
+<text x="293.2" y="633" fill="#c9d1d9" textLength="33.6" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">move</text>
+<text x="335.2" y="633" fill="#c9d1d9" textLength="8.4" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">·</text>
+<text x="352.0" y="633" fill="#c9d1d9" textLength="42.0" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">space</text>
+<text x="402.4" y="633" fill="#c9d1d9" textLength="33.6" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">tick</text>
+<text x="444.4" y="633" fill="#c9d1d9" textLength="8.4" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">·</text>
+<text x="461.2" y="633" fill="#c9d1d9" textLength="8.4" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">a</text>
+<text x="478.0" y="633" fill="#c9d1d9" textLength="67.2" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">all/none</text>
+<text x="553.6" y="633" fill="#c9d1d9" textLength="8.4" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">·</text>
+<text x="570.4" y="633" fill="#c9d1d9" textLength="8.4" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">→</text>
+<text x="587.2" y="633" fill="#c9d1d9" textLength="33.6" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">read</text>
+<text x="629.2" y="633" fill="#c9d1d9" textLength="8.4" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">·</text>
+<text x="646.0" y="633" fill="#c9d1d9" textLength="42.0" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">enter</text>
+<text x="696.4" y="633" fill="#c9d1d9" textLength="50.4" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">accept</text>
+<text x="755.2" y="633" fill="#c9d1d9" textLength="8.4" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">·</text>
+<text x="772.0" y="633" fill="#c9d1d9" textLength="8.4" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">q</text>
+<text x="788.8" y="633" fill="#c9d1d9" textLength="50.4" lengthAdjust="spacingAndGlyphs" fill-opacity="0.55">cancel</text>
+</g></svg>
