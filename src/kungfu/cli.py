@@ -239,15 +239,22 @@ def cmd_former_names(args) -> int:
     return 0
 
 
+def _init_refused(args) -> int | None:
+    """Why init won't run, checked before the risk warning so a refusal doesn't cost an acknowledgement."""
+    if _existing_config() and not args.force:
+        err(f"{config.config_path()} already exists. Run `kungfu init --force` to go through it again; "
+            "your current choices are kept as the starting point.")
+        return 1
+    return None
+
+
 def cmd_init(args) -> int:
     from kungfu.discover import CATEGORY_TITLES, REPLACEMENT, discover, looks_like_a_word
 
+    if (refused := _init_refused(args)) is not None:
+        return refused
     path = config.config_path()
     old = _existing_config()
-    if old and not args.force:
-        err(f"{path} already exists. Run `kungfu init --force` to go through it again; "
-            "your current choices are kept as the starting point.")
-        return 1
     ask = interactive() and not args.defaults and not args.accept_all
     if not interactive() and not (args.defaults or args.accept_all):
         args.defaults = True
@@ -964,7 +971,7 @@ def parser() -> argparse.ArgumentParser:
     p.add_argument("--vault", action="append")
     p.add_argument("--wiki", action="append")
     _accept_risk_flag(p)
-    p.set_defaults(fn=cmd_init)
+    p.set_defaults(fn=cmd_init, refused=_init_refused)
 
     p = sub.add_parser("former-names", help="privately add former names (a deadname, old usernames) to always scrub")
     p.add_argument("--clear", action="store_true", help="remove all of them")
@@ -1032,6 +1039,9 @@ def main(argv: list[str] | None = None) -> int:
         ap.print_help()
         return 0
     args = ap.parse_args(argv)
+    refused = getattr(args, "refused", None)  # a command that would refuse anyway does so before the warning
+    if refused and (code := refused(args)) is not None:
+        return code
     if args.cmd in risk.WHAT:
         args.acknowledgement = risk.acknowledge(args.cmd, flag=args.accept_risk, interactive=interactive())
         if args.acknowledgement is None:

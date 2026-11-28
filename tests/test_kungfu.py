@@ -1776,6 +1776,25 @@ class TestRiskAcknowledgement(unittest.TestCase):
             self.assertEqual((code, ran), (1, False), answer)
             self.assertIn("nothing was done", out)
 
+    def test_init_over_an_existing_config_refuses_before_the_warning(self):
+        from unittest import mock
+        from kungfu import cli
+
+        tmp = tempfile.TemporaryDirectory()
+        self.addCleanup(tmp.cleanup)
+        cfg = Path(tmp.name) / "existing.toml"
+        cfg.write_text('[sources]\nrepo_roots = ["~/git"]\n')
+        asked = []
+        errs = io.StringIO()
+        with mock.patch.dict(os.environ, {"KUNGFU_CONFIG": str(cfg)}), \
+             mock.patch("kungfu.cli.interactive", return_value=True), \
+             mock.patch("builtins.input", lambda prompt="": asked.append(prompt) or "I accept the risk"), \
+             mock.patch("sys.stderr", errs):
+            self.assertEqual(cli.main(["init"]), 1)
+        self.assertEqual(asked, [])  # no acknowledgement spent on a run that can't go ahead
+        self.assertNotIn("EXPERIMENTAL", errs.getvalue())
+        self.assertIn("--force", errs.getvalue())
+
     def test_read_only_commands_need_no_acknowledgement(self):
         from kungfu import cli
 
